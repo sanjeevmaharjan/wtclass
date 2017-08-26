@@ -12,10 +12,34 @@
                 <p>
                     <label>
                         Name:
-                        <input type="text" name="name" id="name" />
+                        <input type="text" name="name" id="name" required="required" />
                     </label>
                 </p>
-
+                
+                <p>
+                    <label>
+                        Age:
+                        <input type="number" id="age" />
+                    </label>
+                </p>
+                
+                <p>
+                    <label>
+                        Date of Birth:
+                        <input type="date" />
+                    </label>
+                    
+                    <label>
+                        Time: <input type="time" />
+                    </label>
+                </p>
+                
+                <p>
+                    <label>
+                        Email:
+                        <input type="email" required="required" />
+                    </label>
+                </p>
 
                 <p>
                     Gender:
@@ -55,7 +79,11 @@
                         <input type="checkbox" value="Master's" name="eduLevel" />
                         Master's
                     </label>
-                    
+                </p>
+                
+                <p>
+                    Rate NCIT: 
+                    <input type="range" name="rating" min="1" max="5" step="1" />
                 </p>
             </fieldset>
             
@@ -63,4 +91,5 @@
             <button type="reset">Reset</button>
         </form>
     </body>
+
 </html>
