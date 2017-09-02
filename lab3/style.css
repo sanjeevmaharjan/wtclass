@@ -1,7 +1,10 @@
+h2 {
+	color: rgb(128, 0, 196);
+}
 p {
 	font-family: sans-serif;
 	color: red;
 }
-h2 {
-	background-color: yellow;
+.cls {
+	color: #FF8800;
 }
