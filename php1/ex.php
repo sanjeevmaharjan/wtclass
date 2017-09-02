@@ -1,15 +1,14 @@
 <?php
-    $a = 10;
-    $b = 7;
+$a = 10;
+$b = 7;
 
-    printnln ("$a + $b = " . ($a + $b) );
-    printnln ("$a - $b = " . ($a - $b) );
-    printnln ("$a * $b = " . ($a * $b) );
-    printnln ("$a / $b = " . ($a / $b) );
-    printnln ("$a % $b = " . ($a % $b) );
+printnln ("10 + 7 = " . ($a + $b) );
+printnln ("10 - 7 = " . ($a - $b) );
+printnln ("10 * 7 = " . ($a * $b) );
+printnln ("10 / 7 = " . ($a / $b) );
+printnln ("10 % 7 = " . ($a % $b) );
 
-    function printnln ($msg) {
-        echo $msg;
-        echo "<br />";
-    }
-?>
+function printnln ($msg) {
+    echo $msg;
+    echo "<br />";
+}
